@@ -1,2 +1,11 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+	import { Button } from 'repro-shad-types';
+</script>
+
+<Button>test button</Button>
+
+<p>
+	If you edit the code for the button above, add a space between <code>&lt;Button</code> and
+	<code>&gt;</code> and maybe even hit ctrl+space to trigger auto-complete, you'll see that the known
+	props for the button are not suggested.
+</p>
